@@ -25,7 +25,7 @@ highlight Statement ctermfg=153 cterm=bold
 highlight Operator ctermfg=231 cterm=NONE
 
 highlight PreProc ctermfg=189 cterm=bold
-highlight Type ctermfg=253 cterm=bold
+highlight Type ctermfg=152 cterm=bold
 
 highlight Special ctermfg=116
 
