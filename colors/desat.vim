@@ -41,6 +41,8 @@ highlight CursorLine term=underline cterm=underline ctermfg=white ctermbg=black
 highlight StatusLine ctermbg=250 ctermfg=232 cterm=NONE
 highlight StatusLineNC ctermbg=246 ctermfg=238 cterm=NONE
 
+highlight Pmenu ctermbg=darkgray guibg=darkgray
+
 " Tailing whitespaces
 highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
