@@ -41,7 +41,15 @@ highlight CursorLine term=underline cterm=underline ctermfg=white ctermbg=black
 highlight StatusLine ctermbg=250 ctermfg=232 cterm=NONE
 highlight StatusLineNC ctermbg=246 ctermfg=238 cterm=NONE
 
-highlight Pmenu ctermbg=darkgray guibg=darkgray
+highlight Pmenu ctermfg=255 ctermbg=darkgray
+highlight PmenuSel cterm=bold ctermfg=255 ctermbg=black
+highlight CocMenuSel cterm=bold ctermfg=255 ctermbg=black
+highlight ErrorMsg ctermfg=208 ctermbg=NONE cterm=underline
+
+hi DiffAdd      ctermfg=green          ctermbg=black
+hi DiffChange   ctermfg=NONE          ctermbg=NONE
+hi DiffDelete   ctermfg=red         ctermbg=black
+hi DiffText     ctermfg=255         ctermbg=black
 
 " Tailing whitespaces
 highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
